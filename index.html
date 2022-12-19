@@ -1,43 +1,54 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Index </title>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"
+		type="text/css" href="styles.css">
+	<script src="index.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 </head>
 
-
 <body>
-  <h1>Keegan Au Yuen</h1>
-  <p>Web Design Guru</p>
-
-  <nav>
-    <ul>
-      <li> <a href="index.html">Home</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="projects.html">Projects</a></li>
-
-    </ul>
-  </nav>
-
-  <br>
-  <br>
-  <img src="images/photo.jpeg" width=270px, height=270px,</img>
-  <br>
-  <br>
-  <p id="p2">Hello, my name is Keegan Au Yuen. I currently attend Concordia University Irvine. I am a computer science major and I am on the mens volleyball team.
-  I like to workout, go to the beach, eat, and sleep.</p>
-  <br>
-
-  <footer><span>&copy 2022 Keegan Au Yuen</span></footer>
+	<div id="board">
+		<h1>TIC TAC TOE</h1>
+		<h2>Game starts with Player X</h2>
 
 
 
+		<input type="text" id="box1" onclick=  "myfunc_3(); myfunc();" readonly>
+
+		<input type="text" id="box2" onclick= 	"myfunc_4(); myfunc();" readonly>
+
+		<input type="text" id="box3" onclick= 	"myfunc_5(); myfunc();" readonly>
+		<br>
+    <br>
+
+		<input type="text" id="box4" onclick =	"myfunc_6(); myfunc();" readonly>
+
+		<input type="text" id="box5" onclick =	"myfunc_7(); myfunc();" readonly>
+
+		<input type="text" id="box6" onclick=	"myfunc_8(); myfunc();" readonly>
+		<br>
+    <br>
+
+		<input type="text" id="box7" onclick=	"myfunc_9(); myfunc();" readonly>
+
+		<input type="text" id="box8" onclick=	"myfunc_10();myfunc();" readonly>
+
+		<input type="text" id="box9" onclick=	"myfunc_11();myfunc();" readonly>
+      <br>
+      <p id="finish"></p>
 
 
+		<br>
+    <m
+		<button id="button" onclick="myfunc_2()">RESET</button>
+
+	</div>
 </body>
 
 </html>
